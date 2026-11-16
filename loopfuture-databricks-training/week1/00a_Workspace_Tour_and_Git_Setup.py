@@ -1,4 +1,8 @@
 # Databricks notebook source
+# /// script
+# [tool.databricks.environment]
+# environment_version = "6"
+# ///
 # MAGIC %md
 # MAGIC # 00a · Workspace Tour, Compute and Git Setup
 # MAGIC
@@ -84,6 +88,13 @@ except Exception as e:
 
 # COMMAND ----------
 
+# MAGIC %sql
+# MAGIC SELECT pickup_zip, count(*) FROM samples.nyctaxi.trips
+# MAGIC group by pickup_zip
+# MAGIC having count(*) = 0
+
+# COMMAND ----------
+
 # MAGIC %md
 # MAGIC ## 5 · Your own GitHub repository + Databricks Git folder
 # MAGIC
@@ -142,7 +153,7 @@ except Exception as e:
 # MAGIC **Q1.** A team runs a notebook a few times a day and wants no cluster configuration and no cost while idle. Which compute fits best?
 # MAGIC
 # MAGIC - A. All-purpose cluster with auto-termination of 120 minutes
-# MAGIC - B. Serverless compute for notebooks
+# MAGIC - B. Serverless compute for notebooks «--
 # MAGIC - C. A job cluster
 # MAGIC - D. A Pro SQL warehouse
 # MAGIC
@@ -150,13 +161,13 @@ except Exception as e:
 # MAGIC
 # MAGIC - A. Accelerator: A10
 # MAGIC - B. Usage policy
-# MAGIC - C. Memory: High
+# MAGIC - C. Memory: High «--
 # MAGIC - D. Base environment: AI
 # MAGIC
 # MAGIC **Q3.** Where do you commit and push changes made to notebooks inside a Databricks Git folder?
 # MAGIC
 # MAGIC - A. In the Compute page
-# MAGIC - B. In the Git dialog opened from the Git folder's branch button
+# MAGIC - B. In the Git dialog opened from the Git folder's branch button «--
 # MAGIC - C. Only with the Databricks CLI
 # MAGIC - D. In Catalog Explorer
 # MAGIC

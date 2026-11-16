@@ -1,4 +1,8 @@
 # Databricks notebook source
+# /// script
+# [tool.databricks.environment]
+# environment_version = "6"
+# ///
 # MAGIC %md
 # MAGIC # 01 · Python & PySpark Basics
 # MAGIC
@@ -96,10 +100,33 @@ print(upper_products)
 
 # COMMAND ----------
 
+class Calculator:
+    def __init__ (self,name):
+        self.name=name   
+    def validator(self, a,b):
+        if not isinstance(a,int):
+            raise TypeError("a must be int")
+        if not isinstance(b,int):
+            raise TypeError("b must be int")
+    
+    def sum(self,a,b):
+        self.validator(a,b)
+        return a+b
+    def subtract(self, a,b):
+        self.validator(a,b)
+        return a-b
+
+x = Calculator("Antonio")
+print(x.name)
+print(x.sum(1,2)) 
+
+# COMMAND ----------
+
 # Functions
 def total_with_vat(amount: float, vat: float = 0.23) -> float:
     """Returns the amount with VAT applied."""
     return round(amount * (1 + vat), 2)
+
 
 print(total_with_vat(100))
 print(total_with_vat(100, vat=0.06))
