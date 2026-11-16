@@ -170,8 +170,7 @@ spark  # already created for you
 # COMMAND ----------
 
 # From the Python list of dictionaries above
-df_sales = spark.createDataFrame(sales)
-display(df_sales)
+
 
 # COMMAND ----------
 
@@ -185,6 +184,7 @@ print(df_sales.columns)     # list of column names
 # Each StructField = (column name, type, can it be null?)
 from pyspark.sql.types import StructType, StructField, IntegerType, StringType, DoubleType
 
+
 schema = StructType([
     StructField("order_id", IntegerType(), False),
     StructField("customer", StringType(), True),
@@ -195,6 +195,13 @@ schema = StructType([
 rows = [(s["order_id"], s["customer"], s["product"], s["qty"], s["price"]) for s in sales]
 df_sales = spark.createDataFrame(rows, schema)
 df_sales.printSchema()
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC select trip_distance, count(1) from samples.nyctaxi.trips
+# MAGIC group by trip_distance
+# MAGIC having count(trip_distance) > 1
 
 # COMMAND ----------
 
@@ -304,23 +311,120 @@ df_trips.filter(F.col("fare_amount") > 50).select("pickup_zip", "fare_amount").e
 
 # COMMAND ----------
 
-# Exercise 1
+print(df_trips.count())
+
+
 
 # COMMAND ----------
 
-# Exercise 2
+# DBTITLE 1,Cell 33
+# MAGIC %sql
+# MAGIC select count(*) from samples.nyctaxi.trips
+# MAGIC
+
+# COMMAND ----------
+
+# DBTITLE 1,Cell 34
+# MAGIC %sql
+# MAGIC --Exercise 2
+# MAGIC select tpep_pickup_datetime, trip_distance, fare_amount from samples.nyctaxi.trips
+# MAGIC order by fare_amount desc
+# MAGIC limit 5
+
+# COMMAND ----------
+
+# DBTITLE 1,Cell 35
+#Exercise 2
+from pyspark.sql import functions as F
+
+display(df_trips.select("tpep_pickup_datetime", "trip_distance", "fare_amount")
+            .orderBy(F.desc("fare_amount"))
+            .limit(5)
+)
+
+
+# COMMAND ----------
+
+# DBTITLE 1,Cell 36
+# MAGIC %sql
+# MAGIC --Exercise 3
+# MAGIC select *,
+# MAGIC case when trip_distance > 0 
+# MAGIC     then round(fare_amount / trip_distance)
+# MAGIC     else 0 
+# MAGIC end as fare_per_mile
+# MAGIC from samples.nyctaxi.trips
+# MAGIC     
 
 # COMMAND ----------
 
 # Exercise 3
+from pyspark.sql import functions as F
+
+display(
+    df_trips.withColumn(
+        "fare_per_mile",
+        F.when(F.col("trip_distance") > 0, F.col("fare_amount") / F.col("trip_distance"))
+    )
+)
+
+
 
 # COMMAND ----------
 
+# DBTITLE 1,Cell 38
 # Exercise 4
+from pyspark.sql import functions as F
+
+display(
+    df_trips.groupBy("dropoff_zip")
+            .agg(F.count("*").alias("Trips"))
+            .filter(F.col("Trips") > 100)
+)
+
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC select dropoff_zip,
+# MAGIC     count(*) as trips
+# MAGIC from samples.nyctaxi.trips
+# MAGIC group by dropoff_zip
+# MAGIC having count(*) > 100
+# MAGIC
+# MAGIC
 
 # COMMAND ----------
 
 # Exercise 5
+
+def classify(distance):
+    if distance < 2:
+        return "short"
+    elif distance > 10:
+        return "long"
+    else:
+        return "medium"
+
+from pyspark.sql import functions as F
+
+display(
+    df_trips.withColumn("trip_length", F.when(F.col("trip_distance")<2,"short")
+                                    .when(F.col("trip_distance")>10, "long")
+                                    .otherwise( "medium")
+                                   )
+)
+
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC select *,
+# MAGIC case when trip_distance < 2 then 'short'
+# MAGIC when trip_distance > 10 then 'long'
+# MAGIC else 'medium'
+# MAGIC end as trip_length
+# MAGIC from samples.nyctaxi.trips
 
 # COMMAND ----------
 
@@ -330,22 +434,22 @@ df_trips.filter(F.col("fare_amount") > 50).select("pickup_zip", "fare_amount").e
 # MAGIC
 # MAGIC **Q1.** Which of these is an **action** in Spark?
 # MAGIC
-# MAGIC - A. filter()
+# MAGIC - A. filter() 
 # MAGIC - B. withColumn()
-# MAGIC - C. count()
+# MAGIC - C. count() «--
 # MAGIC - D. select()
 # MAGIC
 # MAGIC **Q2.** Which PySpark code returns the total `amount` per `customer`?
 # MAGIC
 # MAGIC - A. df.select('customer').sum('amount')
-# MAGIC - B. df.groupBy('customer').agg(F.sum('amount'))
+# MAGIC - B. df.groupBy('customer').agg(F.sum('amount')) «--
 # MAGIC - C. df.filter('customer').agg('amount')
 # MAGIC - D. df.orderBy('customer').sum()
 # MAGIC
 # MAGIC **Q3.** What does `df.createOrReplaceTempView('v_sales')` allow you to do?
 # MAGIC
 # MAGIC - A. Save the DataFrame as a Delta table in Unity Catalog
-# MAGIC - B. Query the DataFrame with SQL during the current session
+# MAGIC - B. Query the DataFrame with SQL during the current session «--
 # MAGIC - C. Share the DataFrame with all workspace users
 # MAGIC - D. Cache the DataFrame on disk
 # MAGIC
