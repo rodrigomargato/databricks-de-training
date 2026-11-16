@@ -1,0 +1,22 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Databricks / local
+.databricks/
+*.dbc
+.env
+*.log
+
+# Never commit credentials
+*token*
+*secret*
