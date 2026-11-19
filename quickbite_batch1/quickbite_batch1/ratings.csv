@@ -1,0 +1,588 @@
+order_id,stars,comment
+Q00004,5,Too late
+Q00005,4,Would order again
+Q00006,4,Would order again
+Q00007,4,Cold food
+Q00010,5,Fast delivery
+Q00012,3,Would order again
+Q00014,5,Fast delivery
+Q00017,3,Fast delivery
+Q00022,3,Fast delivery
+Q00023,4,Fast delivery
+Q00024,3,Great!
+Q00025,4,Cold food
+Q00026,5,Too late
+Q00029,2,Fast delivery
+Q00032,4,Cold food
+Q00033,4,
+Q00035,4,Fast delivery
+Q00040,4,
+Q00041,3,Cold food
+Q00044,3,Great!
+Q00045,3,Fast delivery
+Q00048,4,Fast delivery
+Q00051,5,
+Q00053,5,Too late
+Q00054,4,Fast delivery
+Q00056,4,Cold food
+Q00057,4,Fast delivery
+Q00058,5,Great!
+Q00064,3,
+Q00065,4,
+Q00066,5,
+Q00067,3,
+Q00069,3,Would order again
+Q00071,4,Fast delivery
+Q00072,2,Fast delivery
+Q00075,4,
+Q00081,3,
+Q00084,5,Fast delivery
+Q00086,3,
+Q00089,4,Fast delivery
+Q00091,4,
+Q00093,4,Cold food
+Q00094,3,Fast delivery
+Q00095,3,Would order again
+Q00096,4,Would order again
+Q00098,3,Fast delivery
+Q00099,2,
+Q00102,6,Fast delivery
+Q00103,4,Cold food
+Q00105,4,Would order again
+Q00106,6,Great!
+Q00108,3,Would order again
+Q00112,5,
+Q00114,4,Too late
+Q00115,4,Fast delivery
+Q00116,4,Great!
+Q00117,4,Great!
+Q00121,3,Great!
+Q00122,3,Would order again
+Q00123,5,
+Q00124,3,Too late
+Q00125,4,Cold food
+Q00126,4,Great!
+Q00128,4,Too late
+Q00129,3,Great!
+Q00130,5,Too late
+Q00131,2,Great!
+Q00135,1,Would order again
+Q00138,4,Fast delivery
+Q00139,5,Great!
+Q00140,4,Would order again
+Q00141,4,Great!
+Q00144,4,Fast delivery
+Q00145,4,Too late
+Q00148,5,
+Q00149,4,Cold food
+Q00150,4,Cold food
+Q00151,4,Great!
+Q00153,4,Great!
+Q00156,3,
+Q00158,1,
+Q00159,4,Would order again
+Q00162,4,Fast delivery
+Q00163,4,Too late
+Q00166,3,
+Q00169,4,Fast delivery
+Q00170,3,Cold food
+Q00172,3,
+Q00173,5,Cold food
+Q00174,4,Cold food
+Q00176,4,Great!
+Q00177,3,Cold food
+Q00181,2,Fast delivery
+Q00183,3,Great!
+Q00184,4,Great!
+Q00185,2,Fast delivery
+Q00186,4,Cold food
+Q00187,4,
+Q00189,5,
+Q00190,5,Great!
+Q00192,4,
+Q00195,4,
+Q00198,4,Fast delivery
+Q00200,4,
+Q00201,5,
+Q00202,4,Too late
+Q00203,4,Cold food
+Q00206,3,Great!
+Q00207,4,Fast delivery
+Q00210,3,Too late
+Q00211,4,Great!
+Q00212,5,Fast delivery
+Q00213,3,Too late
+Q00214,4,Would order again
+Q00215,3,Great!
+Q00216,3,Would order again
+Q00217,5,Would order again
+Q00218,4,
+Q00219,5,Too late
+Q00222,3,Too late
+Q00223,4,Too late
+Q00224,4,Great!
+Q00227,2,Fast delivery
+Q00228,4,Would order again
+Q00229,0,
+Q00230,3,
+Q00231,2,
+Q00232,5,Would order again
+Q00234,5,Great!
+Q00237,3,Cold food
+Q00239,4,Would order again
+Q00240,4,Cold food
+Q00244,3,
+Q00245,3,Fast delivery
+Q00246,4,Great!
+Q00248,4,Fast delivery
+Q00250,3,Cold food
+Q00251,4,Would order again
+Q00254,5,Fast delivery
+Q00256,3,
+Q00257,5,Fast delivery
+Q00258,4,Great!
+Q00259,4,Great!
+Q00260,2,Fast delivery
+Q00262,4,
+Q00266,4,Great!
+Q00268,4,Too late
+Q00269,5,
+Q00270,4,Would order again
+Q00272,5,
+Q00274,3,Cold food
+Q00275,5,Cold food
+Q00277,5,Too late
+Q00278,4,Too late
+Q00279,5,
+Q00281,5,Cold food
+Q00282,4,Fast delivery
+Q00283,4,Cold food
+Q00284,4,Great!
+Q00287,1,Cold food
+Q00289,3,Cold food
+Q00290,3,Great!
+Q00291,4,
+Q00293,4,Too late
+Q00300,3,Fast delivery
+Q00302,3,
+Q00303,3,Cold food
+Q00304,4,Fast delivery
+Q00305,4,Too late
+Q00306,4,Fast delivery
+Q00308,3,Fast delivery
+Q00309,3,Would order again
+Q00310,5,Cold food
+Q00312,4,Fast delivery
+Q00314,4,Would order again
+Q00316,0,Cold food
+Q00320,5,Cold food
+Q00321,4,
+Q00323,4,Too late
+Q00324,2,Would order again
+Q00328,4,Great!
+Q00329,4,Would order again
+Q00333,5,Fast delivery
+Q00336,1,
+Q00338,5,Too late
+Q00339,3,Fast delivery
+Q00340,4,
+Q00341,4,Too late
+Q00344,3,Cold food
+Q00345,4,Too late
+Q00347,4,Cold food
+Q00348,5,Cold food
+Q00349,2,Fast delivery
+Q00351,3,Would order again
+Q00353,5,Great!
+Q00356,2,Fast delivery
+Q00357,4,Great!
+Q00358,4,Fast delivery
+Q00359,4,Would order again
+Q00360,2,Fast delivery
+Q00361,4,Great!
+Q00362,4,
+Q00363,4,Great!
+Q00364,4,Cold food
+Q00365,4,
+Q00366,5,Too late
+Q00367,3,Great!
+Q00368,4,
+Q00371,5,Too late
+Q00373,4,
+Q00374,4,
+Q00376,5,Too late
+Q00377,3,Would order again
+Q00378,4,Great!
+Q00379,3,Would order again
+Q00381,4,Too late
+Q00382,4,Great!
+Q00386,4,Cold food
+Q00388,3,Great!
+Q00390,4,Would order again
+Q00392,2,
+Q00394,4,
+Q00396,3,Cold food
+Q00398,4,Cold food
+Q00399,4,Great!
+Q00400,1,Great!
+Q00407,3,Great!
+Q00411,3,Cold food
+Q00412,5,Cold food
+Q00414,3,Would order again
+Q00415,4,Cold food
+Q00416,0,Cold food
+Q00417,4,Fast delivery
+Q00418,4,
+Q00419,5,Would order again
+Q00420,4,Cold food
+Q00423,4,Great!
+Q00425,3,Fast delivery
+Q00426,5,Fast delivery
+Q00428,4,Great!
+Q00429,3,Fast delivery
+Q00430,3,Too late
+Q00431,3,Cold food
+Q00434,4,Great!
+Q00436,4,Great!
+Q00437,5,Too late
+Q00438,4,
+Q00442,4,Too late
+Q00444,4,Would order again
+Q00448,4,
+Q00449,3,Fast delivery
+Q00450,0,
+Q00451,5,Too late
+Q00453,4,Would order again
+Q00454,5,Fast delivery
+Q00455,6,Would order again
+Q00458,4,Great!
+Q00460,3,Fast delivery
+Q00462,4,Great!
+Q00463,5,Would order again
+Q00464,4,Cold food
+Q00466,4,Great!
+Q00467,4,Cold food
+Q00469,5,Cold food
+Q00470,4,Cold food
+Q00471,4,Too late
+Q00473,4,Too late
+Q00474,5,Fast delivery
+Q00476,5,Too late
+Q00478,3,Fast delivery
+Q00480,4,Great!
+Q00482,4,
+Q00483,4,Would order again
+Q00484,4,Too late
+Q00485,5,Too late
+Q00488,3,Cold food
+Q00489,4,Too late
+Q00491,5,Fast delivery
+Q00493,5,Too late
+Q00497,4,Too late
+Q00500,5,Cold food
+Q00502,4,Too late
+Q00503,3,Too late
+Q00505,1,
+Q00509,4,Fast delivery
+Q00510,4,
+Q00513,1,
+Q00516,1,
+Q00518,4,Great!
+Q00523,3,Fast delivery
+Q00524,2,Cold food
+Q00526,3,Cold food
+Q00528,4,Fast delivery
+Q00529,5,Would order again
+Q00530,5,Would order again
+Q00536,4,Would order again
+Q00538,5,Cold food
+Q00540,4,
+Q00542,1,
+Q00543,2,Would order again
+Q00547,4,Cold food
+Q00548,3,Cold food
+Q00549,4,
+Q00550,4,
+Q00553,4,Too late
+Q00554,4,Too late
+Q00559,2,Fast delivery
+Q00560,4,Too late
+Q00561,4,Cold food
+Q00564,4,Too late
+Q00566,4,Would order again
+Q00567,3,Cold food
+Q00568,4,Would order again
+Q00570,4,Fast delivery
+Q00571,2,
+Q00572,0,Great!
+Q00575,3,Would order again
+Q00577,4,Great!
+Q00578,4,
+Q00582,4,Cold food
+Q00583,4,Too late
+Q00584,6,Fast delivery
+Q00585,3,Would order again
+Q00588,5,Fast delivery
+Q00590,2,Great!
+Q00593,4,Fast delivery
+Q00594,4,Great!
+Q00595,5,
+Q00598,3,Would order again
+Q00599,3,Cold food
+Q00600,2,
+Q00601,3,Too late
+Q00602,4,Great!
+Q00604,4,Fast delivery
+Q00605,4,Cold food
+Q00607,5,Fast delivery
+Q00609,3,Fast delivery
+Q00610,4,Cold food
+Q00612,4,
+Q00613,3,Cold food
+Q00617,4,Too late
+Q00619,5,Cold food
+Q00620,4,Too late
+Q00626,4,
+Q00627,4,
+Q00629,0,Great!
+Q00634,3,Would order again
+Q00635,5,Cold food
+Q00636,4,Would order again
+Q00640,5,Cold food
+Q00641,5,Would order again
+Q00642,3,Cold food
+Q00643,1,Too late
+Q00646,4,Fast delivery
+Q00649,1,
+Q00650,5,
+Q00652,5,Too late
+Q00653,4,
+Q00654,4,Too late
+Q00655,4,Great!
+Q00656,4,Too late
+Q00657,3,Great!
+Q00658,5,
+Q00659,5,Would order again
+Q00660,0,Cold food
+Q00661,4,
+Q00663,3,Cold food
+Q00664,4,Fast delivery
+Q00667,2,
+Q00668,3,Too late
+Q00671,4,Cold food
+Q00673,4,Cold food
+Q00676,3,Fast delivery
+Q00678,5,Too late
+Q00679,4,Great!
+Q00681,4,Too late
+Q00682,5,Too late
+Q00685,4,Too late
+Q00687,4,Great!
+Q00689,2,Cold food
+Q00690,4,
+Q00691,4,Too late
+Q00693,2,Great!
+Q00694,1,Great!
+Q00695,3,Too late
+Q00696,6,Too late
+Q00697,3,Fast delivery
+Q00700,4,Fast delivery
+Q00701,3,Would order again
+Q00702,4,Would order again
+Q00703,3,Cold food
+Q00705,4,Fast delivery
+Q00707,3,Cold food
+Q00708,2,Great!
+Q00709,4,Fast delivery
+Q00710,3,Cold food
+Q00712,4,Fast delivery
+Q00715,3,Would order again
+Q00716,4,Great!
+Q00719,1,Too late
+Q00721,1,Too late
+Q00723,5,Cold food
+Q00724,4,Too late
+Q00726,2,Fast delivery
+Q00729,6,
+Q00733,3,Too late
+Q00734,3,Would order again
+Q00735,4,Would order again
+Q00737,2,Fast delivery
+Q00740,3,Great!
+Q00742,2,
+Q00745,4,Cold food
+Q00749,4,Cold food
+Q00751,5,Great!
+Q00755,4,Great!
+Q00757,2,Too late
+Q00758,4,Great!
+Q00761,4,Fast delivery
+Q00762,3,Fast delivery
+Q00763,4,Fast delivery
+Q00764,2,Cold food
+Q00766,4,Great!
+Q00767,3,Would order again
+Q00769,5,
+Q00770,5,Cold food
+Q00771,5,Fast delivery
+Q00776,4,Too late
+Q00777,3,Cold food
+Q00778,4,Cold food
+Q00781,4,Too late
+Q00782,1,
+Q00783,4,
+Q00785,4,Great!
+Q00786,5,
+Q00787,5,Great!
+Q00788,4,Cold food
+Q00790,5,Great!
+Q00792,4,Would order again
+Q00795,1,
+Q00798,2,Fast delivery
+Q00799,4,Would order again
+Q00800,5,Cold food
+Q00801,5,Too late
+Q00804,4,Cold food
+Q00808,4,Would order again
+Q00809,4,
+Q00812,5,Great!
+Q00814,4,
+Q00815,4,
+Q00816,3,Too late
+Q00817,4,Cold food
+Q00818,3,Great!
+Q00820,4,Great!
+Q00821,5,Too late
+Q00823,3,Fast delivery
+Q00824,6,
+Q00831,4,Cold food
+Q00832,4,Cold food
+Q00833,3,Cold food
+Q00835,4,Too late
+Q00836,5,Cold food
+Q00838,3,
+Q00839,5,Too late
+Q00841,4,Fast delivery
+Q00842,4,Would order again
+Q00844,4,Too late
+Q00846,1,
+Q00847,4,Too late
+Q00848,4,Great!
+Q00849,4,Would order again
+Q00851,3,Great!
+Q00852,3,Would order again
+Q00854,5,Too late
+Q00855,4,Great!
+Q00857,6,Great!
+Q00858,5,Cold food
+Q00863,4,Fast delivery
+Q00866,4,Great!
+Q00867,3,Great!
+Q00872,5,
+Q00875,5,Fast delivery
+Q00878,4,Cold food
+Q00880,5,
+Q00882,3,Great!
+Q00883,4,Would order again
+Q00884,5,Fast delivery
+Q00885,5,
+Q00886,4,
+Q00890,3,Great!
+Q00893,3,
+Q00894,4,Cold food
+Q00897,4,Fast delivery
+Q00898,4,Too late
+Q00899,3,Cold food
+Q00904,4,Cold food
+Q00906,4,Would order again
+Q00908,4,Would order again
+Q00911,0,Great!
+Q00914,4,Fast delivery
+Q00916,4,Cold food
+Q00922,4,
+Q00923,5,Fast delivery
+Q00924,5,
+Q00927,4,Cold food
+Q00929,4,Too late
+Q00932,4,Too late
+Q00934,5,Would order again
+Q00936,4,Great!
+Q00937,4,Fast delivery
+Q00938,5,Would order again
+Q00939,4,Cold food
+Q00940,5,Fast delivery
+Q00946,5,
+Q00947,4,Fast delivery
+Q00948,3,Cold food
+Q00949,4,
+Q00950,5,
+Q00954,3,Too late
+Q00956,4,
+Q00958,5,Too late
+Q00959,4,Great!
+Q00961,4,
+Q00962,3,Would order again
+Q00964,4,Cold food
+Q00965,4,
+Q00966,3,
+Q00967,4,Too late
+Q00970,4,Would order again
+Q00971,5,Too late
+Q00972,2,Too late
+Q00976,3,Cold food
+Q00977,3,Too late
+Q00978,4,Fast delivery
+Q00979,5,Great!
+Q00981,5,Great!
+Q00982,5,Would order again
+Q00983,2,Would order again
+Q00988,4,Too late
+Q00989,2,Too late
+Q00990,2,Too late
+Q00991,4,Too late
+Q00992,3,Great!
+Q00998,4,
+Q00999,4,Would order again
+Q01000,4,
+Q01001,2,Too late
+Q01002,4,Cold food
+Q01004,5,Great!
+Q01005,4,Great!
+Q01008,4,Would order again
+Q01009,0,Great!
+Q01010,6,
+Q01011,3,Too late
+Q01013,2,Cold food
+Q01014,4,Fast delivery
+Q01017,5,Would order again
+Q01018,4,Would order again
+Q01020,0,Cold food
+Q01021,2,Would order again
+Q01023,1,Would order again
+Q01026,3,
+Q01027,4,Great!
+Q01028,3,Fast delivery
+Q01029,4,
+Q01033,4,Too late
+Q01037,4,Cold food
+Q01038,5,Cold food
+Q01040,5,Would order again
+Q01045,4,Too late
+Q01046,2,Would order again
+Q01047,5,Would order again
+Q01048,4,Great!
+Q01052,4,Fast delivery
+Q01054,3,Fast delivery
+Q01059,3,Too late
+Q01063,5,Cold food
+Q01068,5,Would order again
+Q01069,5,Fast delivery
+Q01070,3,
+Q01071,4,Cold food
+Q01073,5,
+Q01075,2,
+Q01077,5,Would order again
+Q01078,3,
+Q01079,5,Too late
+Q01083,2,Would order again
+Q01085,3,Cold food

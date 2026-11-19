@@ -1,0 +1,16 @@
+restaurant_id,name,city,cuisine
+R01,Pizzaria Bella,Lisboa,Pizza
+R02,Sushi Zen,Lisboa,Sushi
+R03,Burger Lab, coimbra,Burgers
+R04,Tasca do Zé, coimbra,Portuguese
+R05,Curry House,Coimbra,Indian
+R06,Green Bowl,LISBOA,Vegan
+R07,Taco Loco,Lisboa,Mexican
+R08,Forno Antigo, braga,Pizza
+R09,Sakura,lisboa,Sushi
+R10,Smash Bros, lisboa,Burgers
+R11,O Cantinho,Coimbra ,Portuguese
+R12,Masala,Braga,Indian
+R13,Veggie Spot,Coimbra,Vegan
+R14,El Sombrero,Braga,Mexican
+R15,Prego Bom,Coimbra ,Portuguese
